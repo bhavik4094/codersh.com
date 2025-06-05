@@ -13,7 +13,7 @@ import ComparisonTable from "../../components/common/ComparisonTable";
 // import Favicon from "../../assets/images/images2/favicon.webp";
 // import { Helmet } from 'react-helmet';
 import SEO from "../../components/common/SEO";
-import VideoSlider from "../../components/common/VideoSlider";
+import SolutionTestimonialSlider from "../../components/solutions/SolutionTestimonialSlider";
 
 const GlobalStyle = createGlobalStyle`
   #root {
@@ -112,9 +112,7 @@ function HomeOne() {
       <ComparisonTable />
       <TestimonialSwiper />
       {/* <Testimonial /> */}
-      <div className="container">
-        <VideoSlider />
-      </div>
+      <SolutionTestimonialSlider />
       <AutoSlider />
       <div style={{ marginBottom: "20px" }}></div>
       {/* <Teams teams={teamsData} /> */}
