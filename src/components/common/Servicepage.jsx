@@ -335,7 +335,7 @@ function ServicePage() {
         </div>
       )}
 
-      {/* Portfolio Section */}
+      {/*  Portfolio Sections */}
       {commonSection && (
         <div className="section aximo-section-padding32">
           <div className="container">
