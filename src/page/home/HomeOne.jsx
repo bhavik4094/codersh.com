@@ -13,6 +13,7 @@ import ComparisonTable from "../../components/common/ComparisonTable";
 // import Favicon from "../../assets/images/images2/favicon.webp";
 // import { Helmet } from 'react-helmet';
 import SEO from "../../components/common/SEO";
+import VideoSlider from "../../components/common/VideoSlider";
 
 const GlobalStyle = createGlobalStyle`
   #root {
