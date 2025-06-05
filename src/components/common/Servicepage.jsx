@@ -244,7 +244,7 @@ function ServicePage() {
 
       {/* Details Section */}
       <div className="section">
-        <div className="container">
+        <div className="">
           <div className="row p-lg-0 pb-5">
             <div className="col-lg-6 p-lg-0">
               <img src={acf.details_img_url} alt="Details" loading="lazy" />
