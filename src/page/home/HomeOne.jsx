@@ -104,17 +104,21 @@ function HomeOne() {
         canonical="https://react-vite-codersh.vercel.app/"
       />
       <SpeedInsights />
-      <Hero />
-      <Services services={servicesData} />
-      <About />
-      <Projects />
-      <WhyChooseUs />
-      <ComparisonTable />
-      <TestimonialSwiper />
-      {/* <Testimonial /> */}
+      <div className="container">
+        <div className="row">
+          <Hero />
+          <Services services={servicesData} />
+          <About />
+          <Projects />
+          <WhyChooseUs />
+          <ComparisonTable />
+          <TestimonialSwiper />
+          {/* <Testimonial /> */}
 
-      <AutoSlider />
-      <VideoSlider />
+          <AutoSlider />
+          <VideoSlider />
+        </div>
+      </div>
       <div style={{ marginBottom: "20px" }}></div>
       {/* <Teams teams={teamsData} /> */}
     </>
