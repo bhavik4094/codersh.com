@@ -243,7 +243,7 @@ function ServicePage() {
       </div>
 
       {/* Details Section */}
-      <div className="section">
+      <div className="section overflow-x-hidden">
         <div className="">
           <div className="row p-lg-0 pb-5">
             <div className="col-lg-6 p-lg-0">
