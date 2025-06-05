@@ -21,7 +21,7 @@ function MessageForm() {
 
     try {
       const response = await fetch(
-        "https://codersh.com/aximo/wp-json/wp/v2/form-submit",
+        "https://codersh.com/wp-json/codersh/v1/form-submit",
         {
           method: "POST",
           headers: {
