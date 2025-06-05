@@ -112,11 +112,10 @@ function HomeOne() {
       <ComparisonTable />
       <TestimonialSwiper />
       {/* <Testimonial /> */}
-
-      <AutoSlider />
       <div className="container">
         <VideoSlider />
       </div>
+      <AutoSlider />
       <div style={{ marginBottom: "20px" }}></div>
       {/* <Teams teams={teamsData} /> */}
     </>
