@@ -10967,7 +10967,9 @@ a.aximo-connect-login img {
   margin-bottom: 30px;
   padding: 20px 20px 40px;
   border-radius: 20px;
-  background-color: var(--light-bg2);
+  /* background-color: var(--light-bg2); */
+      background-color: #fdfcf7;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 991px) {

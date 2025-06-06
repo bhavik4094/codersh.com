@@ -244,12 +244,12 @@ function ServicePage() {
 
       {/* Details Section */}
       <div className="section">
-        <div className="container">
+        <div className="overflow-x-hidden">
           <div className="row p-lg-0 pb-5">
             <div className="col-lg-6 p-lg-0">
               <img src={acf.details_img_url} alt="Details" loading="lazy" />
             </div>
-            <div className="col-lg-6 d-flex align-items-center">
+            <div className="col-lg-6 px-5 d-flex align-items-center">
               <div className="aximo-default-content2 mb-lg-3 ps-lg-4 libre-font m-left-gap-small">
                 <h3 className="mb-4">{acf.details_title}</h3>
                 <p className="fs-18 mb-4">{acf.details_description}</p>
@@ -276,7 +276,7 @@ function ServicePage() {
           </div>
 
           <div className="row p-lg-0 pb-5">
-            <div className="order-2 order-lg-1  col-lg-6 d-flex align-items-center">
+            <div className="order-2 order-lg-1 px-5 col-lg-6 d-flex align-items-center">
               <div className="aximo-default-content2 pe-lg-4 libre-font m-left-gap-small">
                 <h3 className="mb-4">{acf.details_title_two}</h3>
                 <p className="fs-18 mb-4">{acf.details_description_two}</p>
